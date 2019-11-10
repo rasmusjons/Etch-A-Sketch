@@ -1,0 +1,87 @@
+/* 
+.container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  justify-items: center;
+  overflow: hidden;
+} */
+
+.container {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto; 
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  justify-content: center
+  
+}
+
+.divs{
+  background: #fbfbfb;
+  border: solid black 1px; 
+  
+ 
+}
+
+body {
+  background: #190f07;;
+  background-image: url(../img/backg.jpg);
+
+}
+
+.newdivs{
+  background: #fbfbfb; 
+  border: black solid 1px; 
+}
+
+.button{
+ 
+  width: 150px; 
+  height: 50px; 
+  border: 0; 
+  margin-bottom: 60px;
+  box-shadow: 2px 2px 3px 1px #fa9900;
+  background-color: #ab6600;
+  transition: 0.05s;
+  margin: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+
+.changebutton {
+  width: 150px; 
+  height: 50px; 
+  border: 0; 
+  background-color: #ab6600;
+  margin-bottom: 60px;
+  box-shadow: 2px 2px 3px 1px #fa9900;
+  transition: 0.05s;
+  margin: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+#buttonDiv{
+  display: flex; 
+  justify-content: center;
+}
+
+h1{
+  margin: auto;
+
+  color: #ffcc33; 
+  text-shadow: 3px 3px black;
+  font-size: 30px;
+    line-height: 40px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-family: 'Press Start 2P', cursive;
+    border: 20px groove #ff9900;
+    background-color: #8a4e23;
+    background-image: url(https://www.spelaspelpodden.se/wp-content/uploads/2018/01/bg_sign_trp_20p.png);
+    width: fit-content;
+    text-align: center;
+  }
